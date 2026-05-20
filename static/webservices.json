@@ -1,0 +1,22 @@
+{
+    "OOTB": {
+        "getAttributes": {
+            "url": "/resources/v1/collabServices/attributes/op/read?tenant={tenantID}",
+            "type": "POST",
+            "payload": {
+                "attributes": "true",
+                "busIDs": []
+            }
+        },
+        "getChangeAction": {
+            "url": "/resources/v1/modeler/dslc/changeaction/{ID}",
+            "type": "GET"
+        }
+    },
+    "custom": {
+        "updateOwnership": {
+            "url": "/resources/niar/api/changeownerca",
+            "type": "PUT"
+        }
+    }
+}
